@@ -1,8 +1,9 @@
-
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-     <h1>Hello world!.</h1>
+    <div className="min-h-screen bg-background  p-80 animate-pulse">
+      <h1 className="text-3xl font-bold text-blue-500 underline text-center">
+        Welcome
+      </h1>
     </div>
   );
 }
